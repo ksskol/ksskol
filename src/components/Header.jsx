@@ -4,14 +4,14 @@ export default function Header() {
   return (
     <header>
       <Link to={`/`}>ksskol</Link>
-      <Link className="right-link" to={`/resume`}>
-        resume
+      <Link className="pl-10" to={`/about`}>
+        about
       </Link>
-      <Link className="right-link" to={`/projects`}>
+      <Link className="pl-10" to={`/projects`}>
         projects
       </Link>
-      <Link className="right-link" to={`/about`}>
-        about
+      <Link className="pl-10" to={`/resume`}>
+        resume
       </Link>
     </header>
   );

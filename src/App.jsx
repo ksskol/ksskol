@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router";
-import "./App.css";
 import Header from "./components/Header";
 import MainInfo from "./components/MainInfo";
 import About from "./components/About";
@@ -9,7 +8,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="">
       <Header />
       <Routes>
         <Route path="/" element={<MainInfo />} />

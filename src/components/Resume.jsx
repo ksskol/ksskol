@@ -13,7 +13,7 @@ export default function Resume() {
     <div>
       <h1>Kristina Skolota</h1>
       <h3>Full-Stack Software Engineer</h3>
-      <h3>Education</h3>
+      <h3 className="font-bold">Education</h3>
       <h4> Northcoders, Manchester</h4>
       Software Engineer March 2024 - Current
       <p>
@@ -33,20 +33,48 @@ export default function Resume() {
         Learning and Innovation: Stayed updated with emerging technologies,
         aimed for innovation, and continuously improved project outcomes.
       </p>
-      <h3>Skills</h3>
-      <h4>Languages</h4>
-        <p><RiJavascriptFill /> JavaScript</p>
-        <p><BiLogoTypescript /> TypeScript</p>
-      <h4>Testing</h4>
-        <p><SiJest /> TDD using Jest and Supertest</p>
-      <h4>Back-end</h4>
-        <p><GoDatabase /> SQL</p>
-        <p><SiPostgresql /> PSQL</p>
-        <p> <SiMongodb />MongoDB</p>
-      <h4>Front-end</h4>
-        <p><FaHtml5 /> HTML</p>
-        <p><IoLogoCss3 /> CSS</p>
-        <p><FaReact /> React</p>
+      <h3 className="font-bold">Skills</h3>
+      <div className="grid grid-cols-4 gap-4">
+        <div>
+          <h4 className="font-bold mb-2">Languages</h4>
+          <p className="flex items-center">
+            <RiJavascriptFill className="mr-2" /> JavaScript
+          </p>
+          <p class="flex items-center">
+            <BiLogoTypescript className="mr-2" /> TypeScript
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold mb-2">Testing</h4>
+          <p class="flex items-center">
+            <SiJest className="mr-2" /> TDD using Jest and Supertest
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold mb-2">Back-end</h4>
+          <p className="flex items-center">
+            <GoDatabase className="mr-2" /> SQL
+          </p>
+          <p class="flex items-center">
+            <SiPostgresql className="mr-2" /> PSQL
+          </p>
+          <p class="flex items-center">
+            <SiMongodb className="mr-2" /> MongoDB
+          </p>
+        </div>
+        <div>
+          <h4 className="font-bold mb-2">Front-end</h4>
+          <p className="flex items-center">
+            <FaHtml5 className="mr-2" /> HTML
+          </p>
+          <p class="flex items-center">
+            <IoLogoCss3 className="mr-2" /> CSS
+          </p>
+          <p className="flex items-center">
+            <FaReact className="mr-2" /> React
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
