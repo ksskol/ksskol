@@ -9,8 +9,8 @@ import Contact from "./components/Contact";
 function App() {
   return (
       <div className="m-5 ml-10 mr-10">
-          <Header />
           <Contact />
+          <Header />
           <Routes>
             <Route path="/" element={<MainInfo />} />
             <Route path="/about" element={<About />} />

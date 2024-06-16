@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <header>
       <Link to={`/`}>ksskol</Link>
-      <div className="flex float-right mr-20">
+      <div className="flex float-right">
         <Link className="pl-10" to={`/about`}>
           about
         </Link>

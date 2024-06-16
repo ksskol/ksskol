@@ -19,6 +19,7 @@ export default function Resume() {
       <h1>Kristina Skolota</h1>
       <h3>Full-Stack Software Engineer</h3>
       <h3 className="font-bold">Education</h3>
+      <img className="w-full max-w-24" src="https://www.manchesterdigital.com/storage/6766/Northcoders-Primary-Logo---Red.png" alt="Northcoders" />
       <h4> Northcoders, Manchester</h4>
       Software Engineer March 2024 - Current
       <p>
@@ -39,7 +40,7 @@ export default function Resume() {
         aimed for innovation, and continuously improved project outcomes.
       </p>
       <h3 className="font-bold">Skills</h3>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-8 gap-5">
         <div>
           <h4 className="font-bold mb-2">Languages</h4>
           <p className="flex items-center">
@@ -50,9 +51,15 @@ export default function Resume() {
           </p>
         </div>
         <div>
-          <h4 className="font-bold mb-2">Testing</h4>
+          <h4 className="font-bold mb-2">Front-end</h4>
           <p className="flex items-center">
-            <SiJest className="mr-2" /> TDD using Jest and Supertest
+            <FaHtml5 className="mr-2" /> HTML
+          </p>
+          <p className="flex items-center">
+            <IoLogoCss3 className="mr-2" /> CSS
+          </p>
+          <p className="flex items-center">
+            <FaReact className="mr-2" /> React
           </p>
         </div>
         <div>
@@ -68,15 +75,9 @@ export default function Resume() {
           </p>
         </div>
         <div>
-          <h4 className="font-bold mb-2">Front-end</h4>
+          <h4 className="font-bold mb-2">Testing</h4>
           <p className="flex items-center">
-            <FaHtml5 className="mr-2" /> HTML
-          </p>
-          <p className="flex items-center">
-            <IoLogoCss3 className="mr-2" /> CSS
-          </p>
-          <p className="flex items-center">
-            <FaReact className="mr-2" /> React
+            <SiJest className="mr-2" /> TDD using Jest
           </p>
         </div>
       </div>
