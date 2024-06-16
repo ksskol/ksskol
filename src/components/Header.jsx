@@ -4,14 +4,14 @@ export default function NavBar() {
   return (
     <header>
       <Link to={`/`}>ksskol</Link>
-      <div className="flex float-right">
-        <Link className="pl-10" to={`/about`}>
+      <div>
+        <Link to={`/about`}>
           about
         </Link>
-        <Link className="pl-10" to={`/projects`}>
+        <Link to={`/projects`}> 
           projects
         </Link>
-        <Link className="pl-10" to={`/resume`}>
+        <Link to={`/resume`}>
           resume
         </Link>
       </div>
