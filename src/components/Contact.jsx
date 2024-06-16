@@ -4,16 +4,22 @@ import { MdOutlineMail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="absolute top-5 right-5 space-y-5">
-  <div className="text-2xl ">
-    <FaLinkedinIn />
-  </div>
-  <div className="text-2xl ">
-    <FaGithub />
-  </div>
-  <div className="text-2xl">
-    <MdOutlineMail />
-  </div>
-</div>
+    <div className="flex float-right flex-col space-y-5 ml-10 mt-5">
+      <div className="text-2xl ">
+        <a href="https://www.linkedin.com/in/ksskol/" target="_blank">
+          <FaLinkedinIn />
+        </a>
+      </div>
+      <div className="text-2xl ">
+        <a href="https://github.com/ksskol" target="_blank">
+          <FaGithub />
+        </a>
+      </div>
+      <div className="text-2xl">
+        <a href="mailto:tinaskolo@gmail.com">
+          <MdOutlineMail />
+        </a>
+      </div>
+    </div>
   );
 }

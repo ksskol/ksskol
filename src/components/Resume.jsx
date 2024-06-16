@@ -11,6 +11,11 @@ import { FaHtml5 } from "react-icons/fa";
 export default function Resume() {
   return (
     <div>
+      <div className="border-2 w-28">
+        <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
+          <button type="button">View full CV</button>
+        </a>
+      </div>
       <h1>Kristina Skolota</h1>
       <h3>Full-Stack Software Engineer</h3>
       <h3 className="font-bold">Education</h3>
@@ -34,19 +39,19 @@ export default function Resume() {
         aimed for innovation, and continuously improved project outcomes.
       </p>
       <h3 className="font-bold">Skills</h3>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-5">
         <div>
           <h4 className="font-bold mb-2">Languages</h4>
           <p className="flex items-center">
             <RiJavascriptFill className="mr-2" /> JavaScript
           </p>
-          <p class="flex items-center">
+          <p className="flex items-center">
             <BiLogoTypescript className="mr-2" /> TypeScript
           </p>
         </div>
         <div>
           <h4 className="font-bold mb-2">Testing</h4>
-          <p class="flex items-center">
+          <p className="flex items-center">
             <SiJest className="mr-2" /> TDD using Jest and Supertest
           </p>
         </div>
@@ -67,7 +72,7 @@ export default function Resume() {
           <p className="flex items-center">
             <FaHtml5 className="mr-2" /> HTML
           </p>
-          <p class="flex items-center">
+          <p className="flex items-center">
             <IoLogoCss3 className="mr-2" /> CSS
           </p>
           <p className="flex items-center">
