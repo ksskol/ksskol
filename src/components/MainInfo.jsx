@@ -10,7 +10,9 @@ export default function MainInfo() {
         <h2 className="text-4xl ">Software Engineer</h2>
         <Contact />
         <h3 className="mt-60 my-10 text-2xl text-bold">Projects</h3>
-        <Projects className="text-2xl" />
+        <div className="px-3 pb-10 grid grid col-1 ">
+          <Projects className="text-2xl" />
+        </div>
         <h3 className="my-10 text-2xl text-bold" id="about">
           About
         </h3>

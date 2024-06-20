@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="my-10">
+    <div className="my-10 text-lg">
       <p className="my-4">
         I'm a full-stack Software Engineer who enjoys using JavaScript to create
         innovative solutions.

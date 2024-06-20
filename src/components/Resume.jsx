@@ -11,20 +11,22 @@ import { FaHtml5 } from "react-icons/fa";
 export default function Resume() {
   return (
     <div className="mt-10 w-full flex flex-col items-center">
-      <div className="w-full bg-gray-100 max-w-4xl p-10 rounded-lg">
-        <h1>Kristina Skolota</h1>
-        <h3>Full-Stack Software Engineer</h3>
-        <h3 className="font-bold">Education</h3>
-        <img
-          className="w-full max-w-24"
-          src="https://www.manchesterdigital.com/storage/6766/Northcoders-Primary-Logo---Red.png"
-          alt="Northcoders"
-        />
-        <h4> Northcoders, Manchester</h4>
-        <p>Software Engineer</p>
-        <p>March 2024 - May 2024</p>
+      <div className="w-full bg-gray-50 max-w-4xl p-10 rounded-lg text-lg">
+        <h1 className="text-xl ">Kristina Skolota</h1>
+        <h3 className="opacity-60">Full-Stack Software Engineer</h3>
+        <div className="my-5">
+          <h3 className="font-bold">Education</h3>
+          {/* <img
+            className="w-full max-w-24"
+            src="https://www.manchesterdigital.com/storage/6766/Northcoders-Primary-Logo---Red.png"
+            alt="Northcoders"
+          /> */}
+          <h4> Northcoders, Manchester</h4>
+          <p>Software Engineer</p>
+          <p>March 2024 - May 2024</p>
+        </div>
         <h3 className="font-bold">Skills</h3>
-        <div className="grid grid-cols-2 gap-4 ">
+        <div className="grid grid-cols-1 gap-4">
           <div>
             <h4 className="font-bold mb-2">Languages</h4>
             <p className="flex items-center">
@@ -65,9 +67,9 @@ export default function Resume() {
             </p>
           </div>
         </div>
-        <div className="border-2 flex justify-center p-1 rounded-lg">
+        <div className="flex justify-center mt-5">
           <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
-            <button type="button">Full CV</button>
+            <button type="button" className="border border-gray-400 rounded-lg p-1 bg-white">View full CV</button>
           </a>
         </div>
       </div>

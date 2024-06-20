@@ -24,15 +24,15 @@ export default function NavBar() {
   return (
     <div className="block">
       <div className="flex items-center justify-between p-2">
-        <Link to={`/`}>ksskol</Link>
+        <Link className="text-lg" to={`/`}>ksskol</Link>
 
-        <button onClick={handleClick} className="flex items-center text-2xl">
+        <button onClick={handleClick} className="flex items-center text-3xl">
           {isMenuOpen ? <VscChromeClose /> : <IoReorderThree />}
         </button>
 
         {isMenuOpen && (
           <div className="absolute right-0 top-16 z-10 w-10/12 p-4 bg-white shadow-md rounded-md">
-            <div className="grid grid-cols-1 space-y-5 text-sm">
+            <div className="grid grid-cols-1 space-y-5">
               <button className="p-2 flex">
                 <Link to={`/`} onClick={handleLinkClick}>
                   about
