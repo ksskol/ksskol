@@ -4,7 +4,7 @@ import { MdOutlineMail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="flex space-x-4 mt-5 text-2xl">
+    <div className="flex space-x-8 mt-5 text-2xl">
       <div>
         <a href="https://www.linkedin.com/in/ksskol/" target="_blank">
           <FaLinkedinIn />

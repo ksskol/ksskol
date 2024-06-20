@@ -1,3 +1,4 @@
+import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 
@@ -8,8 +9,18 @@ export default function MainInfo() {
         <h1 className="text-2xl ">Kristina Skolota</h1>
         <h2 className="text-4xl ">Software Engineer</h2>
         <Contact />
-        <h3 className="mt-60 font-medium">Projects</h3>
+        <h3 className="mt-60 my-10 text-2xl text-bold">Projects</h3>
         <Projects className="text-2xl" />
+        <h3 className="my-10 text-2xl text-bold" id="about">
+          About
+        </h3>
+        <About />
+      </div>
+
+      <div className="flex flex-col items-center">
+        <div className="my-5">
+          <Contact />
+        </div>
       </div>
     </main>
   );

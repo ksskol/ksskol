@@ -1,3 +1,5 @@
+// header.jsx
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { IoReorderThree } from "react-icons/io5";
@@ -12,24 +14,27 @@ export default function NavBar() {
 
   function handleLinkClick() {
     setIsMenuOpen(false);
+    
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   return (
     <div className="block">
       <div className="flex items-center justify-between p-2">
-        <Link className="font-medium" to={`/`}>
-          ksskol
-        </Link>
+        <Link to={`/`}>ksskol</Link>
 
         <button onClick={handleClick} className="flex items-center text-2xl">
           {isMenuOpen ? <VscChromeClose /> : <IoReorderThree />}
         </button>
 
         {isMenuOpen && (
-          <div className="absolute right-10 top-16 z-10 w-8/12 p-4 border border-gray-950 bg-white shadow-md rounded-md">
-            <div className="grid grid-cols-1 space-y-5">
+          <div className="absolute right-0 top-16 z-10 w-10/12 p-4 bg-white shadow-md rounded-md">
+            <div className="grid grid-cols-1 space-y-5 text-sm">
               <button className="p-2 flex">
-                <Link to={`/about`} onClick={handleLinkClick}>
+                <Link to={`/`} onClick={handleLinkClick}>
                   about
                 </Link>
               </button>
