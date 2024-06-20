@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div className="mt-5">
+    <div className="mt-5 grid grid-cols-1 laptop:grid-cols-3 gap-4">
       <div className="mb-10">
         <div className="rounded-md border-2 overflow-hidden h-40">
           <a href="https://github.com/ksskol/NC_News_FE" target="_blank">

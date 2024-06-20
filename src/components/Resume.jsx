@@ -26,7 +26,7 @@ export default function Resume() {
           <p>March 2024 - May 2024</p>
         </div>
         <h3 className="font-bold">Skills</h3>
-        <div className="grid grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-4 laptop:grid-cols-4">
           <div>
             <h4 className="font-bold mb-2">Languages</h4>
             <p className="flex items-center">
@@ -69,7 +69,7 @@ export default function Resume() {
         </div>
         <div className="flex justify-center mt-5">
           <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
-            <button type="button" className="border border-gray-400 rounded-lg p-1 bg-white">View full CV</button>
+            <button type="button" className="laptop:absolute top-32 right-28">View full CV</button>
           </a>
         </div>
       </div>
