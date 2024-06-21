@@ -68,7 +68,7 @@ export default function Resume() {
         </div>
         <div className="flex justify-center mt-10">
           <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
-            <button type="button">View full CV</button>
+            <button type="button">View Full Resume</button>
           </a>
         </div>
       </div>

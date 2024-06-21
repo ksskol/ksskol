@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Route, Routes } from "react-router";
 import Header from "./components/Header";
 import MainInfo from "./components/MainInfo";
@@ -6,15 +6,25 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   function toggleTheme() {
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle("dark");
+    const newMode = !isDarkMode;
+    setIsDarkMode(newMode);
+    localStorage.setItem("darkMode", JSON.stringify(newMode));
+    document.documentElement.classList.toggle("dark", newMode);
   }
 
+  useEffect(() => {
+    const storedMode = JSON.parse(localStorage.getItem("darkMode"));
+    if (storedMode) {
+      setIsDarkMode(storedMode);
+      document.documentElement.classList.toggle("dark", storedMode);
+    }
+  }, []);
+
   return (
-    <div className="dark:bg-neutral-900 dark:text-white">
+    <div className={`dark:bg-neutral-900 dark:text-white ${isDarkMode ? "dark" : ""}`}>
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<MainInfo isDarkMode={isDarkMode} toggleTheme={toggleTheme} />} />

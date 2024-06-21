@@ -37,7 +37,7 @@ export default function Header({ isDarkMode, toggleTheme }) {
           </button>
         </div>
 
-        <div className="hidden laptop:flex items-center space-x-5 text-lg">
+        <div className="hidden laptop:flex items-center space-x-5 ">
           <Link to={`/`} onClick={handleLinkClick} className="p-2">
             about
           </Link>
