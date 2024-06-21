@@ -5,11 +5,13 @@ import Projects from "./Projects";
 export default function MainInfo() {
   return (
     <main>
-      <div className="mt-60">
-        <h1 className="text-2xl laptop:text-3xl">Kristina Skolota</h1>
-        <h2 className="text-4xl laptop:text-5xl">Software Engineer</h2>
+      <div>
+        <div className="my-60 laptop:my-72">
+          <h1 className="text-2xl laptop:text-3xl desktop:text-4xl">Kristina Skolota</h1>
+          <h2 className="text-4xl laptop:text-5xl desktop:text-6xl">Software Engineer</h2>
         <Contact />
-        <h3 className="mt-60 my-10 text-2xl text-bold">Projects</h3>
+        </div>
+        <h3 className="my-10 text-2xl text-bold">Projects</h3>
         <div className="px-3 pb-10 grid grid col-1 ">
           <Projects className="text-2xl" />
         </div>
