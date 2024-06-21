@@ -32,14 +32,14 @@
     {
       "id": "1",
       "title": "Nc News",
-      "description": "some more info",
+      "description": "A news website where you can read, like, and comment on articles.",
       "imageSrc": "/adding/ncNews.png",
       "url": "https://github.com/ksskol/NC_News_FE"
     },
     {
       "id": "2",
       "title": "Reel Insight",
-      "description": "some more info",
+      "description": "It's a personalized mobile web app, tracking viewing film history and offering dynamic stats updates.",
       "imageSrc": "/adding/reelInsight.png",
       "url": "https://github.com/Always-Serving-Code/Reel-Insight"
     },

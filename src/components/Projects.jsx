@@ -18,7 +18,7 @@ export default function Projects() {
             </a>
           </div>
           <h1 className="mt-5 text-md font-medium">{project.title}</h1>
-          <h2>{project.description}</h2>
+          <h2 className='text-gray-500'>{project.description}</h2>
         </div>
       ))}
     </div>
