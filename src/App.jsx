@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   function toggleTheme() {
     const newMode = !isDarkMode;
@@ -28,6 +28,7 @@ function App() {
       <Header isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
       <Routes>
         <Route path="/" element={<MainInfo isDarkMode={isDarkMode} toggleTheme={toggleTheme} />} />
+        <Route path="/about" element={<MainInfo />} />
         <Route path="/resume" element={<Resume isDarkMode={isDarkMode} toggleTheme={toggleTheme} />} />
         <Route path="/projects" element={<Projects isDarkMode={isDarkMode} toggleTheme={toggleTheme} />} />
       </Routes>

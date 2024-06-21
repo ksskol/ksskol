@@ -1,0 +1,87 @@
+{
+  "name": "Kristina Skolota",
+  "title": "Software Engineer",
+  "about": [
+    {
+      "id": "1",
+      "text": "A full-stack Software Engineer who enjoys using JavaScript to create innovative solutions."
+    },
+    {
+      "id": "2",
+      "text": "Collaborative work is something I value."
+    },
+    {
+      "id": "3",
+      "text": "Completing the Northcoders bootcamp has fueled my passion for continuous learning, and I'm excited to tackle new challenges in the ever-evolving tech field."
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "title": "github",
+      "link": "https://github.com/ksskol"
+    },
+    {
+      "id": "2",
+      "title": "linkedin",
+      "link": "https://www.linkedin.com/in/ksskol/"
+    },
+    { "id": "3", "title": "email", "link": "mailto:tinaskolo@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Nc News",
+      "description": "some more info",
+      "imageSrc": "/adding/ncNews.png",
+      "url": "https://github.com/ksskol/NC_News_FE"
+    },
+    {
+      "id": "2",
+      "title": "Reel Insight",
+      "description": "some more info",
+      "imageSrc": "/adding/reelInsight.png",
+      "url": "https://github.com/Always-Serving-Code/Reel-Insight"
+    },
+    {
+      "id": "3",
+      "title": "Project Name",
+      "description": "in progress...",
+      "imageSrc": "/adding/in-progress.png"
+    },
+    {
+      "id": "4",
+      "title": "Project Name",
+      "description": "in progress...",
+      "imageSrc": "/adding/in-progress.png"
+    },
+    {
+      "id": "5",
+      "title": "Project Name",
+      "description": "in progress...",
+      "imageSrc": "/adding/in-progress.png"
+    },
+    {
+      "id": "5",
+      "title": "Project Name",
+      "description": "in progress...",
+      "imageSrc": "/adding/in-progress.png"
+    }
+  ],
+
+  "resume": {
+    "tagline": "Full-Stack Software Engineer.",
+    "experiences": [],
+    "education": {
+      "placeName": "Northcoders, Manchester",
+      "placeDate": "March 2024 - May 2024",
+      "placePara": "Software Engineer"
+    },
+    "skills": {
+      "languages": ["JavaScript", "TypeScript"],
+      "frontEnd": ["HTML", "CSS", "Tailwind CSS", "React"],
+      "backEnd": ["SQL", "PSQL", "MongoDB"],
+      "testing": ["TDD using Jest"]
+    }
+  }
+}

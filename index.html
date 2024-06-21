@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ksskol</title>
   </head>
-  <body>
+  <body class="transition-colors duration-300">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+  <script>
+  (function() {
+    const storedMode = JSON.parse(localStorage.getItem('darkMode'));
+    if (storedMode) {
+      document.documentElement.classList.add('dark');
+    }
+  })();
+</script>
+
 </html>
