@@ -4,7 +4,7 @@ import Projects from "./Projects";
 
 export default function MainInfo() {
   return (
-    <main>
+    <main className="m-5 ml-10 mr-10 ">
       <div>
         <div className="my-60 laptop:my-72">
           <h1 className="text-2xl laptop:text-3xl desktop:text-4xl">Kristina Skolota</h1>

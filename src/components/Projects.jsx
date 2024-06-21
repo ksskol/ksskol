@@ -1,11 +1,11 @@
 export default function Projects() {
   return (
-    <div className="mt-5 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-7 desktop:grid-cols-4 fourK:grid-cols-5">
-      <div className="mb-10">
+    <div className=" my-5 mx-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-7 desktop:grid-cols-4 fourK:grid-cols-5">
+      <div>
         <div className="rounded-md border-2 overflow-hidden h-40">
           <a href="https://github.com/ksskol/NC_News_FE" target="_blank">
             <img
-              className="scale-125 w-full max-w-lg"
+              className="object-cover h-full w-full"
               src="../../adding/ncNews.png"
               alt="project picture"
             />

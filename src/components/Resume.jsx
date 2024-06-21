@@ -12,22 +12,17 @@ import { RiTailwindCssFill } from "react-icons/ri";
 export default function Resume() {
   return (
     <div className="mt-10 w-full flex flex-col items-center">
-      <div className=" relative w-full bg-gray-50 max-w-4xl p-10 rounded-lg text-lg">
+      <div className="w-full bg-zinc-100 dark:bg-zinc-700 dark:text-white max-w-4xl p-10 rounded-lg text-lg">
         <h1 className="text-xl ">Kristina Skolota</h1>
         <h3 className="text-gray-400">Full-Stack Software Engineer</h3>
         <div className="my-5">
           <h3 className="font-bold">Education</h3>
-          {/* <img
-            className="w-full max-w-24"
-            src="https://www.manchesterdigital.com/storage/6766/Northcoders-Primary-Logo---Red.png"
-            alt="Northcoders"
-            /> */}
           <h4> Northcoders, Manchester</h4>
           <p>Software Engineer</p>
           <p className="text-gray-400">March 2024 - May 2024</p>
         </div>
         <h3 className="font-bold">Skills</h3>
-        <div className="grid grid-cols-1 gap-4 laptop:grid-cols-4">
+        <div className="grid grid-cols-1 gap-4 tablet:grid-cols-2 laptop:grid-cols-4">
           <div>
             <h4 className="font-bold mb-2">Languages</h4>
             <p className="flex items-center">
@@ -71,12 +66,10 @@ export default function Resume() {
             </p>
           </div>
         </div>
-        <div className="flex justify-center mt-5">
-            <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
-              <button type="button" className="tablet:absolute top-10 right-10 ">
-                View full CV
-              </button>
-            </a>
+        <div className="flex justify-center mt-10">
+          <a href="../../adding/KristinaSkolotaCV.pdf" target="_blank">
+            <button type="button">View full CV</button>
+          </a>
         </div>
       </div>
     </div>

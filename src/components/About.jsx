@@ -8,8 +8,7 @@ export default function About() {
             innovative solutions.
           </p>
           <p className="my-4">
-            Collaborative work is something I value, and I take pride in delivering
-            quality work on time.
+            Collaborative work is something I value.
           </p>
           <p className="my-4">
             Completing the Northcoders bootcamp has fueled my passion for continuous
