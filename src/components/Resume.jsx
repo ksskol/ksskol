@@ -31,7 +31,7 @@ export default function Resume() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button type="button">View Full Resume</button>
+            <button type="button" className="text-blue-500 link-grow">View Full Resume</button>
           </a>
         </div>
       </div>

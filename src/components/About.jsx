@@ -4,7 +4,7 @@ export default function About() {
   const { name, title, about } = data;
 
   return (
-    <div className="my-10 text-lg laptop:text-base">
+    <div className="my-10">
       <div className="grid grid-cols-1 laptop:grid-cols-2">
         <div className="col-span-1">
           {about.map(item => (

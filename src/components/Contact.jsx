@@ -12,7 +12,7 @@ export default function Contact() {
             href={contact.link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`hover:duration-300 ${
+            className={`link-transition ${
               contact.title === "linkedin" ? "hover:text-blue-500" : ""
             } ${contact.title === "github" ? "hover:text-gray-500" : ""} ${
               contact.title === "email" ? "hover:text-red-500" : ""

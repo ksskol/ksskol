@@ -39,3 +39,21 @@ html.dark ::-webkit-scrollbar-thumb {
   background: #555;
 }
 
+.underline-sm {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 3px; 
+}
+
+.link-grow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-grow:hover {
+  transform: scale(1.09);
+}
+
+.link-transition {
+  transition: color 0.3s ease-in-out; 
+}
+

@@ -1,8 +1,8 @@
 import React from 'react';
 import About from "./About";
 import Contact from "./Contact";
-import ProjectsGallery from './ProjectsGallery';
 import data from '../../data.json';
+import LastThreeProjects from './LastThreeProjects';
 
 export default function MainInfo({ isDarkMode, toggleTheme }) {
   const { name, title, projects } = data;
@@ -14,16 +14,16 @@ export default function MainInfo({ isDarkMode, toggleTheme }) {
           <h1 className="text-2xl laptop:text-3xl desktop:text-4xl ">
             {name}
           </h1>
-          <h2 className="text-4xl laptop:text-5xl desktop:text-6xl ">
+          <h2 className="text-4xl laptop:text-5xl desktop:text-7xl ">
             {title}
           </h2>
           <Contact />
         </div>
         <h3 className="my-10 text-2xl text-bold">Projects</h3>
         <div className="grid grid-cols-1">
-          <ProjectsGallery isDarkMode={isDarkMode} toggleTheme={toggleTheme} projects={projects} className="text-2xl" />
+          <LastThreeProjects isDarkMode={isDarkMode} toggleTheme={toggleTheme} className="text-2xl" />
         </div>
-        <h3 className="my-10 text-2xl text-bold" id="about">
+        <h3 className="text-2xl text-bold" id="about">
           About
         </h3>
         <About />
