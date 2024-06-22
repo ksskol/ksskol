@@ -12,7 +12,7 @@ export default function LastThreeProjects() {
 
   return (
     <div className="my-5 mx-10">
-      <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-7 desktop:grid-cols-4 fourK:grid-cols-6 fourK:gap-14 animate-fadeInF">
+      <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-7 desktop:grid-cols-4 fourK:grid-cols-5 fourK:gap-14">
         {firstThreeProjects.map((project) => (
           <div key={project.id}>
             <div className="rounded-md border-2 overflow-hidden h-40">

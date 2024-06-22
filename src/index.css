@@ -49,6 +49,10 @@ html.dark ::-webkit-scrollbar-thumb {
   transition: transform 0.3s ease-in-out;
 }
 
+.block {
+  z-index: 1000; /* Ensure it's above other content */
+}
+
 .link-grow:hover {
   transform: scale(1.09);
 }
