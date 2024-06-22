@@ -5,9 +5,9 @@ export default function Resume() {
   const { name, title, resume } = data;
 
   return (
-    <div className="mt-10 w-full flex flex-col items-center animate-fadeInF">
-      <div className="w-full bg-zinc-100 dark:bg-zinc-700 dark:text-white max-w-4xl p-10 rounded-lg text-lg">
-        <h1 className="text-xl">{name}</h1>
+    <div className="my-10 mx-5 flex flex-col items-center animate-fadeInF">
+      <div className="w-full bg-zinc-100 dark:bg-zinc-700 dark:text-white max-w-4xl p-10 rounded-lg">
+        <h1 className="text-lg">{name}</h1>
         <h3 className="text-gray-400">{title}</h3>
 
         <div className="my-5">
@@ -31,7 +31,7 @@ export default function Resume() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button type="button" className="text-blue-500 link-grow">View Full Resume</button>
+            <button type="button" className="hover:text-blue-500 link-transition">View Full Resume</button>
           </a>
         </div>
       </div>
