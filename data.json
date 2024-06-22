@@ -33,39 +33,39 @@
       "id": "1",
       "title": "Nc News",
       "description": "A news website where you can read, like, and comment on articles.",
-      "imageSrc": "./src/images/ncNews.png",
+      "imageSrc": "./images/ncNews.png",
       "url": "https://github.com/ksskol/NC_News_FE"
     },
     {
       "id": "2",
       "title": "Reel Insight",
       "description": "It's a personalized mobile web app, tracking viewing film history and offering dynamic stats updates.",
-      "imageSrc": "./src/images/reelInsight.png",
+      "imageSrc": "./images/reelInsight.png",
       "url": "https://github.com/Always-Serving-Code/Reel-Insight"
     },
     {
       "id": "3",
       "title": "Project Name",
       "description": "in progress...",
-      "imageSrc": "./src/images/in-progress.png"
+      "imageSrc": "./images/in-progress.png"
     },
     {
       "id": "4",
       "title": "Project Name",
       "description": "in progress...",
-      "imageSrc": "./src/images/in-progress.png"
+      "imageSrc": "./images/in-progress.png"
     },
     {
       "id": "5",
       "title": "Project Name",
       "description": "in progress...",
-      "imageSrc": "./src/images/in-progress.png"
+      "imageSrc": "./images/in-progress.png"
     },
     {
       "id": "5",
       "title": "Project Name",
       "description": "in progress...",
-      "imageSrc": "./src/images/in-progress.png"
+      "imageSrc": "./images/in-progress.png"
     }
   ],
 
@@ -84,7 +84,7 @@
       "testing": ["TDD using Jest"]
     },
     "CV":{
-      "CV1":"./src/adding/KristinaSkolotaCV.pdf"
+      "CV1":"./adding/KristinaSkolotaCV.pdf"
     }
   }
 }
