@@ -27,7 +27,7 @@ export default function Resume() {
 
         <div className="flex justify-center mt-10">
           <a
-            href="../../adding/KristinaSkolotaCV.pdf"
+            href={resume.CV.CV1}
             target="_blank"
             rel="noopener noreferrer"
           >
