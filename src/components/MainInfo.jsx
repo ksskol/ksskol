@@ -8,9 +8,9 @@ export default function MainInfo({ isDarkMode, toggleTheme }) {
   const { name, title } = data;
 
   return (
-    <main className="m-5 mx-10 animate-fadeIn">
+    <main>
       <div>
-        <div className="my-60 laptop:my-72">
+        <div className="my-60 mx-5 laptop:my-72 laptop:mx-10">
           <h1 className="text-2xl laptop:text-3xl desktop:text-4xl ">
             {name}
           </h1>
@@ -19,14 +19,17 @@ export default function MainInfo({ isDarkMode, toggleTheme }) {
           </h2>
           <Contact />
         </div>
-        <h3 className="my-10 text-2xl text-bold">Projects</h3>
+        <h3 className="my-10 mx-5 laptop:mx-10 text-2xl text-bold">Projects</h3>
         <div className="grid grid-cols-1">
           <Projects showLastThree={true} />
         </div>
+        <div className="mx-5 laptop:mx-10">
+
         <h3 className="text-2xl text-bold" id="about">
           About
         </h3>
         <About />
+        </div>
       </div>
 
       <div className="flex flex-col items-center">

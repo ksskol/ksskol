@@ -7,7 +7,7 @@ export default function Projects({ showLastThree }) {
   const displayedProjects = showLastThree ? projects.slice(0, 3) : projects;
 
   return (
-    <div className="my-5 mx-10 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-12 fourK:grid-cols-4 fourK:gap-14">
+    <div className="my-5 mx-10 laptop:mx-16 grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 gap-12 fourK:grid-cols-4 fourK:gap-14">
       {displayedProjects.map((project) => (
         <div key={project.id}>
           <div className="rounded-md border-2 overflow-hidden h-40 fourK:h-60">
