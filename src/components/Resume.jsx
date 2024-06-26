@@ -31,7 +31,7 @@ export default function Resume() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button type="button" className="hover:text-blue-500 link-transition">View Full Resume</button>
+            <button type="button" className="hover:text-gray-500 link-transition">View Full Resume</button>
           </a>
         </div>
       </div>

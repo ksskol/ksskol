@@ -2,10 +2,10 @@ import React from 'react';
 import About from "./About";
 import Contact from "./Contact";
 import data from '../../data.json';
-import LastThreeProjects from './LastThreeProjects';
+import Projects from './Projects';
 
 export default function MainInfo({ isDarkMode, toggleTheme }) {
-  const { name, title, projects } = data;
+  const { name, title } = data;
 
   return (
     <main className="m-5 mx-10 animate-fadeIn">
@@ -21,7 +21,7 @@ export default function MainInfo({ isDarkMode, toggleTheme }) {
         </div>
         <h3 className="my-10 text-2xl text-bold">Projects</h3>
         <div className="grid grid-cols-1">
-          <LastThreeProjects isDarkMode={isDarkMode} toggleTheme={toggleTheme} className="text-2xl" />
+          <Projects showLastThree={true} />
         </div>
         <h3 className="text-2xl text-bold" id="about">
           About
