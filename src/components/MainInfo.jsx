@@ -10,7 +10,7 @@ export default function MainInfo({ isDarkMode, toggleTheme }) {
 
   return (
     <main>
-       <div className="mx-5 laptop:my-72 laptop:mx-10">
+       <div>
         <div className="my-60 mx-5 laptop:my-72 laptop:mx-10">
           <h1 className="text-2xl laptop:text-3xl desktop:text-4xl ">
             {name}
