@@ -50,7 +50,7 @@ html.dark ::-webkit-scrollbar-thumb {
 }
 
 .block {
-  z-index: 1000; /* Ensure it's above other content */
+  z-index: 1000;
 }
 
 .link-grow:hover {
